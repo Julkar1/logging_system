@@ -151,7 +151,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 ACCOUNT_EMAIL_REQUIRED = True
-ACCOUNT_LOGOUT_REDIRECT_URL = "none"
-LOGIN_REDIRECT_URL = "none"
+ACCOUNT_LOGOUT_REDIRECT_URL = "https://j9-logging-system.herokuapp.com/"
+LOGIN_REDIRECT_URL = "https://j9-logging-system.herokuapp.com/"
 ACCOUNT_EMAIL_VERIFICATION = "none"
 ACCOUNT_UNIQUE_EMAIL = False
